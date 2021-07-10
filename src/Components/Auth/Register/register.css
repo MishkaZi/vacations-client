@@ -1,0 +1,88 @@
+
+.register {
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(136,202,207,0.7);
+  
+    width: 30rem;
+    height: 28rem;
+    padding: 0 0 3rem 0;
+  
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .register > * {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 20% 0 20%;
+  }
+  
+  form > * {
+    margin: 5px 0 5px 0;
+  }
+  
+  .register h3{
+  
+      text-transform: uppercase;
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: #797979;
+      font-size: 18px;
+      font-weight: 100;
+      padding: 20px;
+      margin: -10px 0 -10px;
+  }
+  
+  .register input[type='email'],
+  .register input[type='text'],
+  .register input[type='password'] {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 45px;
+  }
+  
+  .register button[type='submit'] {
+    -moz-box-shadow: inset 0px 1px 0px 0px #45d6d6;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #45d6d6;
+    box-shadow: inset 0px 1px 0px 0px #45d6d6;
+    background-color: #2cbbbb;
+    border: 1px solid #27a0a0;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .register button[type='submit']:hover {
+    background: linear-gradient(to bottom, #34caca 5%, #30c9c9 100%);
+    background-color: #34caca;
+  }
+  
+  .link{
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: #797979;
+      text-decoration: none;
+  }
+  
+  .link:hover{
+      color: #775550;
+  }

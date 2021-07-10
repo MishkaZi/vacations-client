@@ -1,0 +1,94 @@
+.header {
+  height: 100%;
+  display: flex;
+  color: #ffffff;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Layout {
+  height: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 10% 85% 5%;
+}
+
+.Layout > header,
+.Layout > footer {
+  grid-column: span 12;
+}
+
+.Layout > aside {
+  grid-column: span 1;
+}
+
+.Layout > main {
+  grid-column: span 11;
+  overflow: scroll;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu > a {
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.Copyrights {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: smaller;
+  background-color: rgba(173, 216, 230, 0.5);
+}
+
+.Logo {
+  padding: 0;
+  position: fixed;
+  height: 10%;
+  left: 10px;
+  top: -9px;
+  background: transparent;
+}
+
+.Logo > img {
+  border-radius: 50%;
+  height: 100%;
+}
+
+.Header {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(173, 216, 230, 0.5);
+}
+
+h1 {
+  color: #2e3f7f;
+}
+
+.Menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.Menu > a {
+  margin-top: 20px;
+}
+
+.Menu > * {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #2e3f7f;
+  text-decoration: none;
+}
+
+.Menu > *:hover {
+  color: #775550;
+}
+

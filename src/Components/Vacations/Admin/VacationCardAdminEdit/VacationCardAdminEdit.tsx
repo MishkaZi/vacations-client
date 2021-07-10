@@ -21,7 +21,7 @@ const VacationCardAdminEdit = (): JSX.Element => {
       let token = sessionStorage.getItem('userToken');
 
       await Axios.put(
-        `http://localhost:3001/vacations/${vacation?.vacationId}`,
+        `https://great-vacations.herokuapp.com/vacations/${vacation?.vacationId}`,
         updatedVacation,
         {
           headers: { Authorization: token },

@@ -17,7 +17,7 @@ export const Register = () => {
 
   const registerUser = async (user: UsersModel) => {
     try {
-      await Axios.post('http://localhost:3001/users/', user);
+      await Axios.post('https://great-vacations.herokuapp.com/users/', user);
       history.push('/');
       alert('Thank you for registering, now login!');
     } catch (error) {

@@ -54,7 +54,7 @@ const VacationCard = (vacation: VacationModel): JSX.Element => {
       //follow vacation
       try {
         const response = await Axios.post(
-          'http://localhost:3001/followed-vacations/follow',
+          'http://https://great-vacations.herokuapp.com/followed-vacations/follow',
           vacation,
           {
             headers: { Authorization: token },

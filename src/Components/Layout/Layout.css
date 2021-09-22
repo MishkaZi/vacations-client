@@ -26,6 +26,7 @@
 .Layout > main {
   grid-column: span 11;
   overflow: scroll;
+  overflow-x: hidden;
 }
 
 .menu {
@@ -91,4 +92,3 @@ h1 {
 .Menu > *:hover {
   color: #775550;
 }
-

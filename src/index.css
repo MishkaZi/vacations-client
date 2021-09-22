@@ -8,6 +8,26 @@ body {
   background-size: cover;
 }
 
-.alert{
+.alert {
   color: red;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #90cfd3;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2cbbbb;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #90cfd3;
 }
